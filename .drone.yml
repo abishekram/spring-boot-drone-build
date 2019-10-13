@@ -7,3 +7,7 @@ steps:
   commands:
   - mvn install
   - mvn test
+
+trigger:
+  branch:
+  - master  
